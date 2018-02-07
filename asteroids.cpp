@@ -62,7 +62,7 @@ class Global {
 } gl;
 //X Windows variables
 class X11_wrapper {
-    public:
+    private:
 	Display *dpy;
 	Window win;
 	GLXContext glc;
